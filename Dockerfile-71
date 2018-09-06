@@ -62,7 +62,7 @@ RUN apt-get update && \
         nano \
         postgresql-client \
 	wget \
-	mysql-core-client-5.7 \
+	mysql-client \
 	sshpass \
     && apt-get clean
 
