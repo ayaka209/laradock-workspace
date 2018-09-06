@@ -61,6 +61,8 @@ RUN apt-get update && \
         vim \
         nano \
         postgresql-client \
+	wget \
+	mysql-core-client-5.7
     && apt-get clean
 
 #####################################
